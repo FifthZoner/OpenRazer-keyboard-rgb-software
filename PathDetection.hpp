@@ -1,0 +1,9 @@
+#ifndef OPENRAZERKEYBOARDSCREENCAPTURE_PATHDETECTION_HPP
+#define OPENRAZERKEYBOARDSCREENCAPTURE_PATHDETECTION_HPP
+
+#include <string>
+
+// support for one keyboard for now, who uses 2?
+std::string GetKeyboardPath();
+
+#endif //OPENRAZERKEYBOARDSCREENCAPTURE_PATHDETECTION_HPP
